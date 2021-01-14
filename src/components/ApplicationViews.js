@@ -8,6 +8,7 @@ import { NavBarAbout } from './NavBarAbout';
 import { About } from './About';
 import { NavBarCaseStudy } from './NavbarCaseStudy';
 import { TravelShots } from './TravelShots';
+import { Process } from './Process';
 
 export const ApplicationViews = () => {
     return (
@@ -17,6 +18,7 @@ export const ApplicationViews = () => {
                 <NavBar />
                 <Header />
                 <Work />
+                <Process />
                 <Connect />
             </Route>
 
