@@ -29,9 +29,9 @@ export const TravelShots = () => {
                             be an easy way to organize and save inspiration for a photo shot and then use that inspiration to create a shot list
                             to be used on location. This leads to the challenge statement of: <strong>How might a traveling photographer easily create and organize a shot list?</strong></p>
                     </Col>
-                    <Col className='image-box' xs={12} sm={{ span: 4 }} xs={{ order: 'first' }} sm={{ order: 1 }} md={{ order: 1 }} lg={{ order: 1 }} xl={{ order: 1 }}>
+                    <Col className='center' xs={12} sm={{ span: 4 }} xs={{ order: 'first' }} sm={{ order: 1 }} md={{ order: 1 }} lg={{ order: 1 }} xl={{ order: 1 }}>
                         <a href='./images/TravelShots-ShotCollection.png' target='_blank'>
-                            <Image className='center' src='./images/TravelShots-ShotCollection.png' contain className="casestudy-images" alt="screenshot of TravelShots app" class="img-responsive" ></Image>
+                            <Image className='center' src='./images/TravelShots-ShotCollection.png' contain className="casestudy-images img-responsive" alt="screenshot of TravelShots app" ></Image>
                         </a>
                     </Col>
                 </Row>
@@ -41,8 +41,10 @@ export const TravelShots = () => {
                     <Col >
                         <h4>Research</h4>
                         <p>I did some research on similar available applications. Some solutions such as a collection of images saved in a desktop folder
-                            did not easily have the ability to add and view notes or to mark inspiration as shot. Pinterest is available to save inspiration
-                            but it is not photo shoot specific and you also can not mark off photos as shot without just adding a note to the description.
+                            did not easily have the ability to add and view notes or to mark inspiration as shot. Pinterest is a website and browser extension 
+                            that is available to save general types of inspiration
+                            but it is not photo shoot specific and you also can not mark off photos as shot without just adding a note to the description
+                            of each saved item.
                             Available apps in the app stores will allow you to make a shot list but they do not allow you to save inspiration.
                         </p>
                         
@@ -52,14 +54,14 @@ export const TravelShots = () => {
                             is very active on social media and the photo enthusiast that is a connoisseur of the best equipment and locations.
                         </p>
                     </Col>
-                    <Col className='image-box'>
+                    <Col className='center'>
                         <a href='./images/TravelShots-Persona1.png' target='_blank'>
-                            <Image src='./images/TravelShots-Persona1.png' contain className="casestudy-images" alt="persona of professional photographer, influencer" class="img-responsive" ></Image>
+                            <Image src='./images/TravelShots-Persona1.png' contain className="casestudy-images img-responsive" alt="persona of professional photographer, influencer" ></Image>
                         </a>
                     </Col>
-                    <Col className='image-box pt-4'>
+                    <Col className='center pt-4'>
                         <a href='./images/TravelShots-Persona2.png' target='_blank'>
-                            <Image src='./images/TravelShots-Persona2.png' contain className="casestudy-images" alt="persona of photography enthusiast, equipment connoisseur" class="img-responsive" ></Image>
+                            <Image src='./images/TravelShots-Persona2.png' contain className="casestudy-images img-responsive" alt="persona of photography enthusiast, equipment connoisseur"></Image>
                         </a>
                     </Col>
 
@@ -77,30 +79,35 @@ export const TravelShots = () => {
                     </Col>
                     <Col>
                         <h4 className='pt-sm-4'>Diagramming the Data</h4>
+                        <p>I organized the data that would be needed for the project in an ERD (Entity-Relationship Diagram). I was keeping in mind the data that I would
+                            directly collect from a user such as the photo notes as well as any data I might want access to later for site functionality such as
+                            a field to denote if the photo had been shot yet or not. </p>
                     </Col>
-                    <Col className='image-box'>
+                    <Col className='center'>
                         <a href='./images/TravelShots-ERD.png' target='_blank'>
-                            <Image src='./images/TravelShots-ERD.png' contain className="casestudy-images" alt="diagram of how data will relate in the database" class="img-responsive" ></Image>
+                            <Image src='./images/TravelShots-ERD.png' contain className="casestudy-images img-responsive" alt="diagram of how data will relate in the database" ></Image>
                         </a>
                     </Col>
                     <Col>
                         <h4 className='pt-4'>Wireframes</h4>
                     </Col>
-                    <Col className='image-box'>
+                    <Col className='center'>
                         <a href='./images/TravelShots-Wireframe.jpg' target='_blank'>
-                            <Image src='./images/TravelShots-Wireframe.jpg' contain className="casestudy-images" alt="diagram of how data will relate in the database" class="img-responsive" ></Image>
+                            <Image src='./images/TravelShots-Wireframe.jpg' contain className="casestudy-images img-responsive" alt="lofi wireframe of the website" ></Image>
                         </a>
                     </Col>
                     <Col >
                         <h4 className='pt-4'>Outcomes & Takeaways</h4>
-                        <p>After two weeks, I had met my MVP (minimum viable product) goals for this project. To truly make this a valuable product for the
-                            user, I need to add additional features.</p>
+                        <p>At the end of two weeks, I had met the technical MVP (minimum viable product) goals for this project. I learned a lot about using a component library
+                            (Semantic UI) and integrating it with React. I figured out how to set up an API server with Cloudinary to host user uploaded images and integrated the 
+                            generated urls with the JSON server. After focusing my efforts on the development side of this project, I was then able to pivot and think again about 
+                            the user experience of the website.</p>
+                            <p>With this working prototype, I was able to share the project with users and discovered they wanted additional features including:</p>
                             <ul>
-                                <li>Have a section that will allow you to browse the photos saved my other users and add them to your own collections with 
-                                your own notes</li>
-                                <li>Add an option to easily save the url of a photo if you don't want to upload one</li>
-                                <li>Have the app connect to a browser extension that will let you save a photo directly
-                                    from any web page you are on with just a few clicks.</li>
+                                <li>A section that will allow users to browse the photos saved by other users and add them to their own collections</li>
+                                <li>An option to easily save the url of a photo if the user don't want to upload one</li>
+                                <li>Have the website connect to a browser extension that will let the user save a photo directly
+                                    from any web page with just a few clicks.</li>
                             </ul> 
                     </Col>
                 </Row>

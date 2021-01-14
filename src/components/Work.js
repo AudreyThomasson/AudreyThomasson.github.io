@@ -20,7 +20,7 @@ export const Work = () => {
                 <Container className='py-3'>
                     <Row xs={1} sm={2}>
                         <Col className='center' xs={12} sm={{ span: 4, offset: 1 }}>
-                            <Image src='./images/TravelShots-ShotCollection.png' contain className="work-images" alt="screenshot of TravelShots app" class="img-responsive" ></Image>
+                            <Image src='./images/TravelShots-ShotCollection.png' contain className="work-images img-responsive" alt="screenshot of TravelShots app" ></Image>
                         </Col>
                         <Col xs={12} sm={6}>
                             <h3 className="project-title">TravelShots Photo Shot List Creator</h3>
@@ -28,7 +28,7 @@ export const Work = () => {
                                 shot lists and to showcase my front-end programming skills.
                             </p>
                             <p className='tech' >Miro  |  UX  |  DBDiagram  |  API  |  Semantic UI  |  ReactJS  |  HTML + CSS</p>
-                            <Link to='/travelshots' target="_blank"><Button variant="outline-secondary">Read More</Button></Link>
+                            <Link to='/travelshots' ><Button variant="outline-secondary">Read More</Button></Link>
                         </Col>
                     </Row>
                 </Container>
@@ -37,8 +37,8 @@ export const Work = () => {
 
                 <Container className='py-3'>
                     <Row xs={1} sm={2}>
-                        <Col className='image-box' xs={12} sm={{ span: 4, offset: 1 }}>
-                            <Image src='./images/ClassWebsite-MainPage.png' contain className="work-images" alt="screenshot of Class Website" class="img-responsive" ></Image>
+                        <Col className='center' xs={12} sm={{ span: 4, offset: 1 }}>
+                            <Image src='./images/ClassWebsite-MainPage.png' contain className="work-images img-responsive" alt="screenshot of Class Website" ></Image>
                         </Col>
                         <Col xs={12} sm={6}>
                             <h3 className="project-title">Showcase for Cohort 43</h3>
@@ -46,7 +46,7 @@ export const Work = () => {
                                  Contributed to UI/UX design planning and conducted virtual user testing. 
                             </p>
                             <p className='tech' >Figma  |  UX  |  User Testing  |  ReactJS  |  HTML + CSS</p>
-                            <Link to='/cohort43' target="_blank" ><Button variant="outline-secondary">Read More</Button></Link>
+                            <Link to='/cohort43' ><Button variant="outline-secondary">Read More</Button></Link>
                         </Col>
                     </Row>
                 </Container>
