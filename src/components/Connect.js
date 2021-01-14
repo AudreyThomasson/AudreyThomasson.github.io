@@ -14,7 +14,7 @@ export const Connect = () => {
             <hr className="break"/>
             <Row>
                 <Col className="center">
-                <h3 className='Kelson-ExtraBold'>Let's Connect!</h3>
+                <h4 className='Kelson-ExtraBold'>Let's Connect!</h4>
                 </Col>
             </Row>
            

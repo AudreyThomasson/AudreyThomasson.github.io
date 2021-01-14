@@ -9,17 +9,17 @@ import Button from 'react-bootstrap/Button'
 export const Work = () => {
     return (
         <>
-            <Container className='work-box' id='work' fluid="sm">
+            <Container className='pt-2 pb-1' id='work' fluid="sm">
                 <hr className="break"/>
                 <Row>
                     <Col className='center'>
-                    <h4 className='Kelson-ExtraBold work-header' >— Work —</h4>
+                    <h4 className='Kelson-ExtraBold pb-sm-2' >— Work —</h4>
                     </Col>
                 </Row>
 
-                <Container className='project-box'>
+                <Container className='py-3'>
                     <Row xs={1} sm={2}>
-                        <Col className='image-box' xs={12} sm={{ span: 4, offset: 1 }}>
+                        <Col className='center' xs={12} sm={{ span: 4, offset: 1 }}>
                             <Image src='./images/TravelShots-ShotCollection.png' contain className="work-images" alt="screenshot of TravelShots app" class="img-responsive" ></Image>
                         </Col>
                         <Col xs={12} sm={6}>
@@ -35,7 +35,7 @@ export const Work = () => {
 
                 <hr className="break"/>
 
-                <Container className='project-box'>
+                <Container className='py-3'>
                     <Row xs={1} sm={2}>
                         <Col className='image-box' xs={12} sm={{ span: 4, offset: 1 }}>
                             <Image src='./images/ClassWebsite-MainPage.png' contain className="work-images" alt="screenshot of Class Website" class="img-responsive" ></Image>
