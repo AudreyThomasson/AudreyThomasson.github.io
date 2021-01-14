@@ -1,0 +1,25 @@
+.casestudy-box {
+    padding-top: calc(2rem + 100px);
+
+    @include media-breakpoint-down(sm) {
+        padding-top: 80px;
+    }
+}
+
+
+
+.casestudy-subtitles {
+    // when it stacks into one column, add padding so it isn't touching picture
+    @include media-breakpoint-down(sm) {
+        padding-top: .8rem;
+    }
+}
+
+.casestudy-images {
+    max-width: 30rem;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+   
+    @include media-breakpoint-down(sm) {
+        max-width: 90%;
+    }
+}

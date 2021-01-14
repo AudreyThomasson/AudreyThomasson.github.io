@@ -1,0 +1,31 @@
+// Import variables (overrides Bootstrap defaults)
+@import "./variables.scss";
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap.scss";
+
+@import "./custom.scss";
+
+// SCSS for certain sections
+@import "./header.scss";
+@import "./navbar.scss";
+@import "./connect.scss";
+@import "./about.scss";
+@import "./work.scss";
+@import "./casestudy.scss";
+
+// Fonts
+.Kelson-ExtraBold {
+    font-family: Kelson-ExtraBold;
+    color: $cyan;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.break {
+    padding-bottom: 1rem;
+    width: 70%;
+}

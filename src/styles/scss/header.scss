@@ -1,0 +1,76 @@
+.masthead {
+    display: flex;
+    justify-content: center;
+    padding-top: calc(2rem + 100px);
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    @media (max-width: 575px) {
+        padding-top: 75px;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+    }
+
+    .masthead-pattern {
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 18rem;
+        height: 18rem;
+        // min-width: 11rem;
+        // min-height: 11rem;
+        
+    }
+
+    .masthead-pattern-mobile {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 18rem;
+        height: 18rem;
+    }
+
+    .masthead-words {
+        text-align: center;
+        max-width: 680px;
+        // min-width: 280px;
+        padding-top: 3rem;
+    }
+
+    .masthead-heading {
+        font-size: 3em !important;
+        font-weight: 500 !important;
+
+        @media (max-width: 1101px) {
+            font-size: 2.8em !important;
+        }
+
+        @media (max-width: 1058px) {
+            font-size: 2.5em !important;
+        }
+
+        @media (max-width: 992px) {
+            font-size: 2.2em !important;
+        }
+
+        @media (max-width: 925px) {
+            font-size: 2em !important;
+        }
+        @media (max-width: 880px) {
+            font-size: 1.8em !important;
+        }
+    }
+
+    .masthead-subheading {
+        font-size: 1em;
+        padding-bottom: 3rem;
+
+        @media (max-width: 992px) {
+            font-size: .8em;
+        }
+    }
+
+    .masthead-text {
+        line-height: .3rem;
+    }
+}
+

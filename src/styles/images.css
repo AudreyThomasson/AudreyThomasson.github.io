@@ -1,0 +1,14 @@
+/* css to place the images as backgrounds, all other styling is done input
+in the header.scss file */
+
+.left {
+    background-image: url('../images/HeroGraphicLEFT.svg');
+}
+
+.mobile-crop {
+    background-image: url('../images/HeroGraphicMOBILE-CROP.png')
+}
+
+.right {
+    background-image: url('../images/HeroGraphicRIGHT.svg');
+}
