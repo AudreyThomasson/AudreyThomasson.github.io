@@ -9,7 +9,7 @@ import Button from 'react-bootstrap/Button'
 export const Work = () => {
     return (
         <>
-            <Container className='pt-2 pb-1' id='work' fluid="sm">
+            <Container className='pt-4 pb-1' id='work' fluid="sm">
                 <hr className="break"/>
                 <Row>
                     <Col className='center'>

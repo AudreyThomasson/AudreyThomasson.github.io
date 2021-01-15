@@ -18,8 +18,10 @@ export const Header = () => {
 
             {/* show only the below on mobile view (d-block d-sm-none) w/cropped pattern */}
             <div className="masthead-words masthead-pattern-mobile mobile-crop d-block d-sm-none">
-            <h1 className="masthead-heading">Turning the complex into simple, beautiful user experiences</h1>
-            <h2 className="masthead-subheading">UX DESIGNER & FRONT-END DEVELOPER</h2>
+            <h1 className="masthead-heading">Turning the complex</h1>
+            <h1 className="masthead-heading">into simple, beautiful user</h1>
+            <h1 className="masthead-heading">experiences</h1>
+            <h2 className="masthead-subheading pt-sm-5">UX DESIGNER & FRONT-END DEVELOPER</h2>
             </div>
             </header>
     )
