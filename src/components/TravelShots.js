@@ -40,10 +40,10 @@ export const TravelShots = () => {
                 <Row xs={1}>
                     <Col >
                         <h4>Research</h4>
-                        <p>I did some research on similar available applications. Some solutions such as a collection of images saved in a desktop folder
+                        <p>I did some research on similar available applications. Some solutions, such as a collection of images saved in a desktop folder,
                             did not easily have the ability to add and view notes or to mark inspiration as shot. Pinterest is a website and browser extension 
-                            that is available to save general types of inspiration
-                            but it is not photo shoot specific and you also can not mark off photos as shot without just adding a note to the description
+                            that is available to save general types of inspiration,
+                            but it is not photo shoot specific and you can not mark off photos as shot without adding a note to the description
                             of each saved item.
                             Available apps in the app stores will allow you to make a shot list but they do not allow you to save inspiration.
                         </p>
