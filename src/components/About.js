@@ -19,38 +19,53 @@ export const About = () => {
                         <p>Hi! I'm Audrey, a UX Designer and Front-End Developer. I am eager to learn: about the user, new products, new services, new technologies, new cookie recipes,
                             new places to travel! With UX my goal is to make a workflow more fluid, simple, and intuitive by understanding the user -- turning the complex into simple, beautiful user experiences. </p>
                         <p>I am passionate about crafting easier
-                            and more enjoyable user experiences. My background combines a degree in graphic design, managing experience at a 5-star resort, real estate photography plus
-                            front-end development. This allows me to bring a greater depth of knowledge to a product design team.
-                            I'm currently focusing on expanding my skills in HTML, CSS, Javascript, and React.</p>
+                            and more enjoyable user experiences. My background combines a degree in graphic design, managing experience at a 5-star resort, and real estate photography. This allows me to bring a greater depth of knowledge to a product design team.
+                            I'm currently focusing on UX design / front-end development and expanding my skills in HTML, CSS, Javascript, and React.</p>
                         <p>I was born and raised in Texas but have been residing in Nashville, TN for over ten years. I am ready to work remotely for a
                             company based anywhere in the world. I'm a lover of coffee, chocolate, cookies, art, and landscape photography. I am 
                             looking forward to being able to safely and easily travel again.</p>
                     </section>
-                    <Button variant="outline-secondary" href='./files/Audrey-Thomasson-UX-Developer-Resume.pdf' target="_blank">PDF Resume</Button>
+                    <Button variant="outline-secondary" href='./files/Audrey-Thomasson-UX-Developer-Resume.pdf' target="_blank">Download Full Resume</Button>
                 </Col>
             </Row>
         </Container>
 
 
-        {/* RESUME SECTION */}
-        {/* <hr className="break"/> */}
-        {/* <Container className='resume-box'>
+
+        <hr className="break"/>
+        <Container className='resume-box'>
             <Row>
                 <Col md={12}>
-                    <h3 className='Kelson-ExtraBold text-center'>Resume</h3>
-                    <Row className='entry'>
-                        <Col className='text-right' md={6}>
-                            <p>UI/UX DESIGNER & FRONT-END DEVELOPER (APPRENTICESHIP)</p>
+                    <h3 className='Kelson-ExtraBold pb-4'>Resume</h3>
+                    <Row>
+                        <Col xl={12}>
+                            <h1 className='resume-title'>UI/UX DESIGNER & FRONT-END DEVELOPER (APPRENTICESHIP)</h1>
+                            <p className='resume-company'>NASHVILLE SOFTWARE SCHOOL</p>
+                            <p className='resume-time'>August 2020 - February 2021</p>
+                            <p className='resume-details'>Intensive full-time six-month software development bootcamp focusing on front-end development,
+                                UI/UX fundamentals, problem-solving and working in a fully remote team environment.</p>
                         </Col>
-                        <Col md={6}>
-                            <p>NASHVILLE SOFTWARE SCHOOL</p>
-                            <p>August 2020 - Current</p>
+
+                        <Col xl={12}>
+                            <h1 className='resume-title'>REAL ESTATE PHOTOGRAPHER & MARKETING MANAGER</h1>
+                            <p className='resume-company'>FREELANCE - Nashville, TN</p>
+                            <p className='resume-time'>2010-2020</p>
+                            <p className='resume-details'>Photograph and film real estate for MLS listings, research property specs, list properties on
+                               the MLS, wrote and launched marketing materials. </p>
+                        </Col>
+
+                        <Col xl={12}>
+                            <h1 className='resume-title'>ASSISTANT MARKETING MANAGER</h1>
+                            <p className='resume-company'>JOYMOVES PILATES STUDIO - Austin TX</p>
+                            <p className='resume-time'>2007-2010</p>
+                            <p className='resume-details'>Design all marketing materials including photography and copy writing for print and online use, use MindBody Online Software to log
+                            and monitor daily studio activity, train new hires.</p>
                         </Col>
                     </Row>
                 </Col>
             </Row>
 
-        </Container> */}
+        </Container>
         </>
     )
 }
