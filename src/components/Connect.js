@@ -56,7 +56,7 @@ export const Connect = () => {
 
             <Row>
                 <Col>
-                    <small className='pt-4 center'>Copyright&copy; 2021 Audrey Thomasson</small>
+                    <small className='pt-4 center'>Copyright © {new Date().getFullYear()} Audrey Thomasson. All Rights Reserved.</small>
                 </Col>
             </Row>
         </Container>
