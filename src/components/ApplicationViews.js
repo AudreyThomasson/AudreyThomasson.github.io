@@ -9,6 +9,7 @@ import { About } from './About';
 import { NavBarCaseStudy } from './NavbarCaseStudy';
 import { TravelShots } from './TravelShots';
 import { Process } from './Process';
+import { ClassWebsite } from './ClassWebsite';
 
 export const ApplicationViews = () => {
     return (
@@ -33,6 +34,13 @@ export const ApplicationViews = () => {
             <Route path="/travelshots">
                 <NavBarCaseStudy />
                 <TravelShots />
+                <Connect />
+            </Route>
+
+            {/* Jump to Class Website detail page */}
+            <Route path="/cohort43">
+                <NavBarCaseStudy />
+                <ClassWebsite />
                 <Connect />
             </Route>
         </>
