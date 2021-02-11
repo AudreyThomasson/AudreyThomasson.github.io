@@ -107,7 +107,7 @@ export const TravelShots = () => {
                                 <li>A section that will allow users to browse the photos saved by other users and add them to their own collections</li>
                                 <li>An option to easily save the url of a photo already on the web as an alternative to uploading one</li>
                                 <li>Have the website connect to a browser extension that will let the user save a photo directly
-                                    from any web page with just a few clicks.</li>
+                                    from any web page with just a few clicks</li>
                             </ul> 
                     </Col>
                 </Row>
