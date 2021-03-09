@@ -78,13 +78,13 @@ export const Process = () => {
                         <Card className='pt-2' border="0" className="px-4" style={{ width: '18rem' }}>
                             <Card.Img variant="top" src='./images/coding.svg' contain className="pt-3 skills-icon blue-filter img-responsive" alt="icon of head with tools"/>
                             <Card.Body>
-                            <Card.Title className="text-center">Coding</Card.Title>
+                            <Card.Title className="text-center">Front-End</Card.Title>
                             <Card.Text>
                             <ul>
                                 <li>HTML</li>
                                 <li>CSS / SASS</li>
                                 <li>Javascript</li>
-                                <li>React</li>
+                                <li>React & Vue</li>
         
                             </ul>
                             </Card.Text>

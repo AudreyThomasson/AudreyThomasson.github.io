@@ -44,6 +44,7 @@ export const About = () => {
                         <p>CSS3</p>
                         <p>Javascript</p>
                         <p>ReactJS</p>
+                        <p>VueJS</p>
                         <p>Visual Studio Code</p>
                     </Col>
                     <Col sm={6} md={3}>
@@ -52,13 +53,15 @@ export const About = () => {
                         <p>Figma</p>
                         <p>Sass</p>
                         <p>FireBase</p>
+                        <p>Slack</p>
                     </Col>
                     <Col sm={6} md={3}>
                         <p>Bootstrap</p>
                         <p>Semantic UI</p>
+                        <p>Material UI</p>
                         <p>Adobe Photoshop</p>
                         <p>Adobe Illustrator</p>
-                        <p>Slack</p>
+                        
                     </Col>
                     <Col sm={6} md={3}>
                         <p>Git and GitHub version control</p>
