@@ -40,7 +40,7 @@ export const Connect = () => {
                     <IconContext.Provider value={{ size: "1.6em", title: 'resume symbol'}}>
                         <div className="icon-combo pl-5 pl-sm-0">
                             <div className="connect-icons"><CgFileDocument /></div>
-                            <a className='links' href='./files/Audrey-Thomasson-UX-Developer-Resume.pdf' target="_blank">download pdf of resume</a>
+                            <a className='links' href='./files/Audrey_Thomasson_UX_Front-End_Developer_Resume.pdf' target="_blank">download pdf of resume</a>
                         </div>
                     </IconContext.Provider>
 
