@@ -16,14 +16,12 @@ export const About = () => {
                 <Col sm={8}>
                     <h2 className='Kelson-ExtraBold about-title' id='about'>About</h2>
                     <section className="about-text">
-                        <p>Hi! I'm Audrey, a UX Designer and Front-End Developer. I am eager to learn: about the user, new products, new services, new technologies, new cookie recipes,
-                            new places to travel! With UX my goal is to make a workflow more fluid, simple, and intuitive by understanding the user -- turning the complex into simple, beautiful user experiences. </p>
-                        <p>I am passionate about crafting easier
-                            and more enjoyable user experiences. My background combines a degree in graphic design, managing experience at a 5-star resort, and real estate photography. This allows me to bring a greater depth of knowledge to a product design team.
-                            I'm currently focusing on UX design / front-end development and expanding my skills in HTML, CSS, Javascript, and React.</p>
-                        <p>I was born and raised in Texas but have been residing in Nashville, TN for over ten years. I am ready to work remotely for a
-                            company based anywhere in the world. I'm a lover of coffee, chocolate, cookies, art, and landscape photography. I am 
-                            looking forward to being able to safely and easily travel again.</p>
+                        <p>Hi! I'm Audrey, a UX Designer and Front-End Developer. After earning a degree in graphic design, I have designed ads for a 
+                            magazine publisher, managed at a 5-star resort balancing people and business interests, and freelanced as a real estate 
+                            photographer shooting and listing properties. My work experience allows me to bring a greater depth of knowledge to a product 
+                            development team. By understanding the user -- I am ready to help your team turn the complex into simple, beautiful user experiences.</p>
+                        <p>I was born and raised in Texas but have been residing in Nashville, TN for over ten years. I'm a lover of coffee, chocolate, cookies, 
+                            art, travel, and landscape photography.</p>
                     </section>
                     <Button variant="outline-secondary" href='./files/Audrey_Thomasson_UX_Front-End_Developer_Resume.pdf' target="_blank">Download Full Resume</Button>
                 </Col>
